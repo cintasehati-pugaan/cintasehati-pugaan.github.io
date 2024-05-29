@@ -1,1 +1,46 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            border: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            padding-top: 20%;
+            padding-bottom: 20%;
+            background-color: #f6002d;
+        }
+        .download-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 180px;
+        }
+    </style>
+</head>
+<body>
+    <img src="images/logo.png" alt="" height="256">
+    <div class="download-box">
+        <a href="https://play.google.com/store/apps/details?id=com.mzpshStudio.cintasehati">
+            <img src="images/download_playstore.png" alt="" height="78">
+        </a>
+        <a href="app-release.apk">
+            <img src="images/download_apk.png" alt="" height="78">
+        </a>
+    </div>
+</body>
+</html>
